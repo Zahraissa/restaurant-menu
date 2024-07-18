@@ -1,0 +1,131 @@
+/* General Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu-item {
+  border: 1px solid #ccc;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  width: 200px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form label {
+  margin: 0.5rem 0;
+}
+
+form button {
+  margin-top: 1rem;
+}
+
+/* Button Styles */
+button {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Login Page Styles */
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 50px); /* Adjust height considering header and footer */
+}
+
+.login input {
+  margin: 10px 0;
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.login button {
+  width: 14%;
+}
+
+/* Menu Page Styles */
+.menu {
+  padding: 20px;
+  text-align: center;
+}
+
+.menu h1 {
+  margin-bottom: 20px;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.menu-item {
+  background: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.menu-item h3 {
+  margin: 10px 0 5px;
+}
+
+.menu-item p {
+  font-size: 1.1em;
+  color: #333;
+}
+
+/* Container for other pages */
+.container {
+  padding: 20px;
+}
